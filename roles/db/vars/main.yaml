@@ -1,6 +1,1 @@
-vars:
-  login_host: db.daws78s.xyz
-vars_prompt:
-- name: PASSWORD
-  prompt: please enter your password
-  private: false
+PASSWORD: ExpenseApp@1
