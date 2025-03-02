@@ -1,3 +1,2 @@
-vars:
-  login_host: db.daws78s.xyz
-  PASSWORD: ExpenseApp@1
+login_host: db.daws78s.xyz
+PASSWORD: ExpenseApp@1
