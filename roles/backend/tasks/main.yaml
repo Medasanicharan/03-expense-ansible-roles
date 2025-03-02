@@ -58,10 +58,10 @@
 - name: import data into mysql
   community.mysql.mysql_db:
     login_user: "{{login_user}}"
+    name: all
     # target: /app/schema/backend.sql
     # login_password: "{{PASSWORD}}"
     # login_host: "{{login_host}}"
-     name: all
     # state: import
 
 # - name: daemon reload 
