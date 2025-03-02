@@ -60,7 +60,7 @@
     login_user: "{{login_user}}"
     name: all
     state: import
-    target: /app/schema/backend.sql
+    # target: /app/schema/backend.sql
     # login_password: "{{PASSWORD}}"
     # login_host: "{{login_host}}"
 
