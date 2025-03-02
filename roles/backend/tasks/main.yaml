@@ -61,7 +61,7 @@
     # target: /app/schema/backend.sql
     # login_password: "{{PASSWORD}}"
     # login_host: "{{login_host}}"
-    # name: all
+     name: all
     # state: import
 
 # - name: daemon reload 
