@@ -1,0 +1,7 @@
+- name: install few packages
+  hosts: all
+  become: yes
+  tasks:
+  - name: install postfix
+    name: postfix
+    state: latest
