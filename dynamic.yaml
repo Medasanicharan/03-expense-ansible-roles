@@ -3,5 +3,5 @@
   become: yes
   tasks:
   - name: install postfix
-    name: postfix
-    state: latest
+      name: postfix
+      state: latest
