@@ -3,7 +3,12 @@
     name: mysql-server
     state: latest
 
-- name: Start and enable MySQL server
+- name: Start MySQL server
+  ansible.builtin.service:
+    name: mysqld
+    state: started
+
+- name: Enable MySQL server
   ansible.builtin.service:
     name: mysqld
     enabled: yes
